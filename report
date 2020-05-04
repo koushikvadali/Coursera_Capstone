@@ -1,2 +1,177 @@
+<strong>Battle of Neighborhoods - Best Location for an Italian Restaurant in Manhattan, New York</strong>
 
-fff
+
+Introduction: Business Problem
+
+
+New York city has many restaurants that cater to a large number of people with its wide variety of cuisines choices. These cuisines come from various ethnic groups who have come to the city from various parts of the world.
+
+
+However, for any one trying to open a restaurant in the Manhattan, New York city, the choice on the location for
+
+the restaurant can be daunting due to the abundance of restaurants around.
+
+In this project, we are trying to find a location for an Italian Restaurant in Manhattan, New York city using
+
+data science such that there is little or no competition around offering the same cuisine.
+
+Data:
+
+
+Based on the problem, we will need the following data for finding the best location for an Italian Restaurant in
+
+New York
+
+
+
+Neighborhood and Boroughs data including latitude and longitude data in order to segment them which 
+
+can be found on 'https://geo.nyu.edu/catalog/nyu_2451_34572'.
+
+
+
+Venue Data for each borough and neighborhood which can be retrieved through Foursquare.
+
+With the above data, we will look at top 10 venues in each of the clusters formed by using K means algorithm
+
+and then decide the location based results.
+
+Map of Manhattan:
+
+
+ 
+
+
+Here we have the map of Manhattan after clustering the venues using k means:
+
+
+ 
+
+
+
+Methodology:
+
+
+New York city has many restaurants that cater to a large number of people with its wide variety of cuisines choices. These cuisines come from various ethnic groups who have come to the city from various parts of the world.
+
+
+
+In this project, we will find the top 10 venues in the neighborhoods of Manhattan and cluster
+
+them using K means algorithm in order to find the top 10 venues of each neighborhood. Based
+
+upon this, we will choose the best location for an Italian Restaurant.
+
+
+
+
+
+
+
+Result and Discussion:
+
+
+
+We now have the information about the top 10 venues in each neighborhood of Manhattan as 
+
+we have now clustered the neighborhood data using K means.
+
+The first cluster has '8' neighborhoods and there is no Italian restaurant among the top venues
+
+ of the neighborhood.
+
+
+
+
+
+The second cluster has '9' neighborhoods and there are some neighborhoods with Italian restaurant
+
+ in the top 10 venues.
+
+
+
+
+
+The third cluster has '9' neighborhoods and there are some no neighborhoods with an Italian
+
+ restaurants in the top 10 venues.
+
+
+
+
+
+The fourth cluster has '13' neighborhoods and the neighborhoods in the cluster has quite a number
+
+of Italian restaurants among its top venues.
+
+
+
+
+
+The fifth cluster has only '1' neighborhood and the neighborhood does not have any Italian
+
+ restaurants among its top venues.
+
+
+
+
+
+
+
+
+Conclusion:
+
+
+In this project, we are looking for a good location for a restaurant in Manhattan. As there are 
+
+hundreds of restaurants in Manhattan, it is very hard to pinpoint a particular location.
+
+
+
+
+
+In this project, we are looking at the top 10 venues in the location to choose a place for a Italian
+
+Restaurant. The fourth cluster has quite a number of Italian restaurants as the top venues, hence,
+
+the neighborhoods in the cluster may not be the best locations for an Italian Restaurant as there
+
+is too much competition.
+
+
+
+
+
+The first cluster also has some neighborhoods where Italian restaurants are among the top venues.
+
+ The ideal location for an Italian Restaurants would be the remaining neighborhoods in the
+
+clusters 2, 3 and 5.
+
+
+
+
+
+However, Final decision must be taken by stake holders based on other factors such as their
+
+investment, value of real estate, proximity to locations such as movie theaters or parks,
+
+socio-economic conditions of the people in the neighborhood and their preferences and so on.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
